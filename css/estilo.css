@@ -1,0 +1,526 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h1, h3, h4, h5, p, a {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Estilo propio del sitio web */
+aside#menu-cortina {
+    width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-idioma-movil { }
+aside#menu-cortina nav#menu-idioma-movil a { }
+aside#menu-cortina nav#menu-idioma-movil a:hover { }
+aside#menu-cortina nav#menu-idioma-movil span { }
+
+
+
+header {
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99990;
+    
+    background: #fff;    /*Color de fondo*/
+}
+
+header article#redes {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #041f53;
+}
+
+header article#redes nav#menu-ubicacion {
+    width: 50%;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    background: #073B9E;
+}
+header article#redes nav#menu-ubicacion a {
+    display: block;
+    position: relative;
+    float: left;
+    margin: 5px 0 0 160px;
+    color: #fff;
+    
+    transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-ubicacion a i {
+    padding: 0 5px;
+}
+header article#redes nav#menu-ubicacion a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+header article#redes nav#menu-redes-header {
+    width: 230px;
+    height: 25px;
+    display: block;
+    margin: 5px 0 0;
+    right: 270px;
+    float: right;
+    position: relative;
+}
+header article#redes nav#menu-redes-header a {
+    padding: 0 5px;
+    color: #fff;
+    
+    transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-redes-header a i {
+    padding: 0 10px;
+}
+header article#redes nav#menu-redes-header a span {
+    color: #fff;
+}
+header article#redes nav#menu-redes-header a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+header article#redes nav#menu-idioma {
+    width: 115px;
+    height: 25px;
+    display: block;
+    margin: 5px 0 0;
+    left: 125px;
+    float: right;
+    position: relative;
+}
+header article#redes nav#menu-idioma a {
+    color: #fff;
+    
+    transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-idioma a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article#redes nav#menu-idioma span {
+    color: #fff;
+}
+
+
+header article#menu {
+    width: 100%;
+    height: 120px;
+    display: block;
+    position: relative;
+    float: none;
+}
+header article#menu a#logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px 0;
+    left: 120px;
+    float: left;
+    position: relative;
+    
+    transition: all 0.2s ease-in;
+}
+header article#menu a#logo:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article#menu a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article#menu nav#menu-principal {
+    width: 550px;
+    height: 35px;
+    display: inline-block;
+    margin: 50px auto;
+    right: 155px;
+    float: right;
+    position: relative;
+}
+header article#menu nav#menu-principal a {
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 0 0 35px;
+    
+    transition: all 0.2s ease-in;
+}
+header article#menu nav#menu-principal a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+
+main {
+    width: 100%;
+    height: auto;         /* auto */
+    display: block;
+    margin: 150px auto 0 auto;
+    float: none;
+    position: relative;
+}
+
+/*INDEX*/
+main section#fila-fotos {
+    width: 100%;
+    height: 430px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    
+}
+main section#fila-fotos article {
+    width: 100%;
+    height: 430px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+main section#fila-fotos article figure#foto-uno {
+    width: 49%;
+    height: 430px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-fotos article figure#foto-uno img {
+    width: 100%;
+    height: auto;
+}
+main section#fila-fotos article figure#foto-dos {
+    width: 51%;
+    height: 430px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+}
+main section#fila-fotos article figure#foto-dos img {
+    width: 100%;
+    height: auto;
+}
+
+main section#fila-sobre-mi {
+    width: 100%;
+    height: 750px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-sobre-mi article {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    float: none;
+    margin: 0 auto;
+    top: 245px;
+    background: #f0f0f0;
+}
+main section#fila-sobre-mi article div#info-sobre-mi {
+    width: 370px;
+    height: 309px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    top: 150px;
+}
+main section#fila-sobre-mi article div#info-sobre-mi h3 {
+    font-size: 2.65em;
+    text-align: center;
+}
+main section#fila-sobre-mi article div#info-sobre-mi p {
+    font-size: 1.25em;
+    text-align: justify;
+}
+main section#fila-sobre-mi article div#info-sobre-mi a {
+    display: block;
+    position: relative;
+    float: right;
+    margin: 0 auto;
+    top: 70px;
+    color: #000;
+    
+    transition: all 0.2s ease-in;
+}
+main section#fila-sobre-mi article div#info-sobre-mi a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#fila-sobre-mi article figure {
+    width: 600px;
+    height: 620px;
+    display: flex;
+    position: relative;
+    float: right;
+    margin: 0 auto;
+    bottom: 160px;
+    right: 45px;
+    background: #f0f0f0;
+}
+main section#fila-sobre-mi article figure img {
+    width: 525px;
+    height: auto;
+    float: none;
+    margin: 40px auto 0;
+}
+
+main section#fila-trabajo {
+    width: 100%;
+    height: 800px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 50px auto 0;
+}
+main section#fila-trabajo article#titulo-trabajo {
+    width: 100%;
+    height: 90px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+main section#fila-trabajo article#titulo-trabajo h5 {
+    width: 800px;
+    display: block;
+    position: relative;
+    flex: none;
+    margin: 0 0 0 75px;
+    top: 30px;
+    font-size: 2em;
+}
+main section#fila-trabajo article#categorias {
+    width: 100%;
+    height: 710px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 100px;
+}
+main section#fila-trabajo article#categorias figure {
+    width: 520px;
+    height: 550px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 55px;
+    background: #f0f0f0;
+}
+main section#fila-trabajo article#categorias figure h4 {
+    width: 440px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 50px auto;
+    font-size: 2em;
+}
+main section#fila-trabajo article#categorias figure p {
+    width: 440px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    font-size: 1.05em;
+}
+main section#fila-trabajo article#categorias figure a {
+    width: 440px;
+    height: 330px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    color: #073B9E;
+    
+    transition: all 0.2s ease-in;
+}
+main section#fila-trabajo article#categorias figure a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#fila-trabajo article#categorias figure a img {
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-trabajo article#categorias figure a span {
+    position: relative;
+    float: right;
+    margin: 20px 0 0;
+}
+
+/*SOBRE MI*/
+main section#fila-sobre-mi-titulo {}
+main section#fila-sobre-mi-titulo article {}
+main section#fila-sobre-mi-titulo article h3{}
+
+main section#fila-sobre-mi-contenido {}
+main section#fila-sobre-mi-contenido article {}
+main section#fila-sobre-mi-contenido article figure {}
+main section#fila-sobre-mi-contenido article figure div#texto-sobre-mi {}
+main section#fila-sobre-mi-contenido article figure div#texto-sobre-mi p {}
+main section#fila-sobre-mi-contenido article figure img {}
+
+/*IMAGEN CORPORATIVA*/
+main section#fila-identidad-titulo {}
+main section#fila-identidad-titulo article {}
+main section#fila-identidad-titulo article h3 {}
+
+main section#fila-identidad-contenido {}
+main section#fila-identidad-contenido article {}
+main section#fila-identidad-contenido article figure {}
+main section#fila-identidad-contenido article figure h4 {}
+main section#fila-identidad-contenido article figure p {}
+main section#fila-identidad-contenido article figure img {}
+
+/*FOTOGRAFÍA*/
+main section#fila-fotografia-titulo {}
+main section#fila-fotografia-titulo article {}
+main section#fila-fotografia-titulo article h3 {}
+
+main section#fila-fotografia-contenido {}
+main section#fila-fotografia-contenido article {}
+main section#fila-fotografia-contenido article figure#texto-retrato {}
+main section#fila-fotografia-contenido article figure#texto-retrato h4 {}
+main section#fila-fotografia-contenido article figure#texto-retrato p {}
+main section#fila-fotografia-contenido article figure {}
+main section#fila-fotografia-contenido article figure a {}
+main section#fila-fotografia-contenido article figure img {}
+
+footer {
+    width: 100%;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    /* background: url('../img/alberto-angulo-diseno-web-fondo-01.jpg') no-repeat top center fixed #333; */
+    background: #073B9E;
+}
+footer nav#menu-redes-footer {
+    width: 20%;
+    height: auto;
+    display: block;
+    position: relative;
+    float: none;
+    text-align: center;
+    top: 30px;
+    margin: 0 auto;
+}
+footer nav#menu-redes-footer a {
+    color: #fff;
+    padding: 30px;
+    
+    transition: 0.3s;
+}
+footer nav#menu-redes-footer a:hover {
+    background-color: #f0f0f0;
+    color: #073B9E;
+}
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
